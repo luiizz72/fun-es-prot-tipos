@@ -39,6 +39,7 @@ export default class User {
     this.#nome = novoNome
   }
 
+<<<<<<< HEAD
   // exibirInfos() {
   //   return `${this.nome}, ${this.email}`
   // }
@@ -60,6 +61,13 @@ export default class User {
 }
 
 
+=======
+  exibirInfos() {
+    return `${this.nome}, ${this.email}`
+  }
+}
+
+>>>>>>> 5dbaf9428a627848d385683f255840f500c9a6d1
 const novoUser = new User('Juliana', 'j@j.com', '2024-01-01')
 // console.log(novoUser);
 // console.log(novoUser.exibirInfos());
